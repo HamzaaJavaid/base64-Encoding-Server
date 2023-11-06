@@ -65,16 +65,12 @@ class _MyAppState extends State<MyApp> {
 
 
                         final response = await http.post(
-                          Uri.parse('http://43.205.214.56/api/single/vehicle/basic_info'),
+                          Uri.parse('<-------------Your api--------->'),
                           headers: {
-                            'Api-Token':'N5ORjSS300F4fcZ3eq69rLShvgwnjchQg7Vmt5N753Sy'
+                            'Api-Token':'<---------Your api token>'
                           },
                           body: {
-                            'user_id': '1',
-                            'national_id_card_f': base64Encode(image!.readAsBytesSync()) ,
-                            'national_id_card_b': base64Encode(image!.readAsBytesSync()) ,
-                            'vehicle_front': base64Encode(image!.readAsBytesSync()) ,
-                            'vehicle_back': base64Encode(image!.readAsBytesSync()) ,
+                            'Map attribute':'value'
                           },
                         );
 
@@ -93,7 +89,7 @@ class _MyAppState extends State<MyApp> {
                     ),
                     child: Center(
                       child: Text(
-                        'Upload Picture',
+                        'Upload File',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 26,
