@@ -1,0 +1,4 @@
+#Sun Nov 05 18:43:42 PKT 2023
+base.0=/Users/apple/AndroidStudioProjects/server_image_upload/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
